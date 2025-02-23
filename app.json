@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "SpendWise",
+    "slug": "SpendWise",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/application.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/application.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.daveneri.SpendWise"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/application.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/application.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "12432930-725c-4e20-8fc7-2d6a1ab54091"
+      }
+    },
+    "owner": "daveneri"
+  }
+}
