@@ -9,14 +9,19 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/application.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.daveneri.SpendWise"
+      "package": "com.daveneri.SpendWise",
+      "runtimeVersion": "1.0.0",
+      "versionCode": 1
     },
     "web": {
       "bundler": "metro",
@@ -46,6 +51,10 @@
         "projectId": "12432930-725c-4e20-8fc7-2d6a1ab54091"
       }
     },
-    "owner": "daveneri"
+    "owner": "daveneri",
+    "updates": {
+      "url": "https://u.expo.dev/12432930-725c-4e20-8fc7-2d6a1ab54091",
+      "fallbackToCacheTimeout": 0
+    }
   }
 }

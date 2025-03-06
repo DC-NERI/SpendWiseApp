@@ -1,0 +1,12 @@
+
+To build application for preview (.aab)
+CLI : ->    eas build --profile preview --platform android
+
+To publish/send update to preview run:
+CLI : ->    eas update --branch preview --message "Testing auto-update"
+
+To build application for production (.aab)
+CLI : ->    eas build --profile production --platform android
+
+to push update
+CLI : ->    eas update --branch production --message "Testing auto-update"
